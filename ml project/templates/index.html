@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/predict" method="post">
+        <div>
+            <input type="text" name="Pregnancies" placeholder="Pregnancies"><br>
+            <input type="text" name="Glucose" placeholder="Glucose"><br>
+            <input type="text" name="BloodPressure" placeholder="BloodPressure"><br>
+            <input type="text" name="SkinThickness" placeholder="SkinThickness"><br>
+            <input type="text" name="Insulin" placeholder="Insulin"><br>
+            <input type="text" name="BMI" placeholder="BMI"><br>
+            <input type="text" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction"><br>
+            <input type="text" name="Age" placeholder="Age"><br>
+            <input type="submit" value="Submit"> <br> {{ predicted_text }}
+        </div>
+    </form>
+    <br><br>
+
+</body>
+
+</html>
